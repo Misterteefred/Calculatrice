@@ -1,8 +1,3 @@
-/*--A FAIRE---*/
-/*
-
-*/
-
 const elChiffre = document.querySelectorAll('.chiffre');
 const elOperateurs = document.querySelectorAll('.operateur');
 const elVirgule = document.querySelector('.virgule');
@@ -83,21 +78,7 @@ function affichageResultat(total){
             elAffichageHistoriqueBottom.prepend(elCalcul,elDivTotal);
           }
         elAffichage.textContent = totalAffiche; 
-        /*
-        const pHistorique = document.createElement('p');
-        pHistorique.classList.add('paragrapheHistorique');
-        pHistorique.innerHTML = `${chaine} = ${total}`;
-        elAffichageHistorique.prepend(pHistorique);        
-        elAffichage.textContent = total;   
-        */
-        //Dans quel cas je veux que chaine soit égal à total ? autrement dis Dans quel cas je veut que chaine s'affiche automatiquement avant l'opérateur ?
-        // dans le cas ou je clic sur un opérateur après avoir fait un calcul
-        //commment JS peux savoir qu'avant d'avoir cliqué sur un opérateur j'ai effectué un calcul ?
-        // est-ce une bonne idée de créer une fonction a part genre rafraichir écran ? 
 
-        //ici soit on code ça : chaine = total pour continuer le calcul
-        // soit on indique chaine = '' pour fair un nouveau calcul
-        //pour le confort, mieux vaut écrire ca pour le moment
         chaine = '';
         //ou chaine = totalAffiche;
     }
