@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="container">
+        <div class="title"><h1>Calculatrice</h1></div>
+        <div class="affichage"></div>
+        <button type="button" value="7" class="chiffre">7</button>
+        <button type="button" value="8" class="chiffre">8</button>
+        <button type="button" value="9" class="chiffre">9</button>
+        <button type="button" value="C" class="clear">AC</button>
+        <button type="button" class="delete"><i class="fa-solid fa-arrow-left"></i></button>
+        <div class="historique historique-right">
+            <span class="titleHistorique">Historique</span> 
+            <div class="affichageHistoriqueRight"></div>
+        </div>
+        
+        <button type="button" value="4" class="chiffre">4</button>
+        <button type="button" value="5" class="chiffre">5</button>
+        <button type="button" value="6" class="chiffre">6</button>
+        <button type="button" value="-" class="operateur">-</button>
+        <button type="button" value="x" class="operateur">x</button>
+        <button type="button" value="1" class="chiffre">1</button>
+        <button type="button" value="2" class="chiffre">2</button>
+        <button type="button" value=3 class="chiffre">3</button>
+        <button type="button" value="+" class="plus operateur">+</button>
+        <button type="button" value="÷" class="operateur">÷</button>
+        <button type="button" value="." class="virgule">.</button>
+        <button type="button" value="0" class="chiffre">0</button>
+        <button type="button" value="=" class="egal">=</button>
+        <button type="button" value="%" class="operateur">%</button>
+        <div class="historique historique-bottom">
+            <span class="titleHistorique">Historique</span> 
+            <div class="affichageHistoriqueBottom"></div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
