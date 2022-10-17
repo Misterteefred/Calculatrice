@@ -32,6 +32,9 @@ function saisieChiffre(e){
 };
 
 function saisieOperateur(e){        
+    if (chaine === ''){
+        chaine = total
+    }  
     chaine += e.target.value;
     chaine = correctionDoublonOperateurs(chaine);
     elAffichage.textContent = chaine;
